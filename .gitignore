@@ -22,4 +22,4 @@ coverage/
 package-lock.json
 yarn.lock
 
-./test.js
+test.js
