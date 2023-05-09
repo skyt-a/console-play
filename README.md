@@ -15,8 +15,10 @@ consolePlay({
     options: {
         styleOptions: {
             color: "red",
-            backgroundColor: "black",
         },
     },
 });
 ```
+
+## License
+[MIT © skyt-a](./LICENSE)
