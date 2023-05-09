@@ -18,15 +18,32 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:skyt-a/console-play.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skyt-a/console-play/issues"
+  },
+  "homepage": "https://github.com/skyt-a/console-play#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --ext ts,tsx .",
     "build": "tsup ./src",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "typescript",
+    "console",
+    "play",
+    "figlet",
+    "ascii",
+    "art",
+    "banner",
+    "ansi"
+  ],
+  "author": "skyt-a(Yuta Sakou)",
+  "license": "MIT",
   "devDependencies": {
     "@types/figlet": "^1.5.6",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
