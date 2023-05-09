@@ -6,10 +6,7 @@ import standard from "figlet/importable-fonts/Standard.js";
 type ConsolePlayProps = {
   text: string;
   options?: Exclude<figlet.Options, "font"> & {
-    consoleType?: Exclude<
-      keyof typeof console,
-      "clear" | "table" | "groupEnd" | "group" | "groupCollapsed"
-    >;
+    consoleType?: "log" | "info" | "warn" | "error";
     wrapUnit?: string;
     styleOptions: StyleOptions;
     styleDebug?: boolean;

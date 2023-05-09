@@ -45,7 +45,7 @@ In console:
 
 | Property | Type | Required | Default | Description |
 | -------- | ---- | -------- | ------- | ----------- |
-| consoleType | `keyof typeof console` | No | "log" | The type of console output (e.g., log, error, warn, etc.). |
+| consoleType | "log", "info", "warn", "error"  | No | "log" | The type of console output (e.g., log, error, warn, etc.). |
 | wrapUnit | `string` | No | N/A | A string representing the character(s) to wrap around the text. this prop is alpha version. so it may not work. |
 | styleOptions | `StyleOptions` | Yes | N/A | An object containing the style options for the console output. |
 | styleDebug | `boolean` | No | `false` | A boolean flag to enable/disable style debugging.if `true` then console.log CSS style will be applied |
@@ -56,7 +56,7 @@ Style options is unfinished. So, it may not work except `color` and `backGroundC
 
 | Property | Type | Required | Default | Description |
 | -------- | ---- | -------- | ------- | ----------- |
-| imageUrl | `string` | Yes | N/A | URL of the image to be displayed as a background image. |
+| imageUrl | `string` | Yes | N/A | URL of the image to be displayed as a background image. if this prop set, then you also need to set padding to allocate place for image |
 | color | `HasThemeStyle` | No | N/A | Text color. Can be a single color or an object with `light` and `dark` properties (can automatically switch between dark or light mode depending on the user's environment). |
 | backgroundColor | `HasThemeStyle` | No | N/A | Background color. Can be a single color or an object with `light` and `dark` properties (can automatically switch between dark or light mode depending on the user's environment).|
 | display | `"inline-block" \| "block" \| "flex" \| "grid"` | No | N/A | CSS display value. |
