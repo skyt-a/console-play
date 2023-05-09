@@ -1,6 +1,6 @@
 # console-play
 
-This library provides the function to display decorated text in the browser console
+This library provides the function to display decorated text(Ascii Art) in the browser console
 
 ## Quick Start
 Install:
