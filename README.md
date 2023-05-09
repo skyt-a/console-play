@@ -27,7 +27,7 @@ consolePlay({
 In console:
 <img src="https://user-images.githubusercontent.com/36734151/237031951-78ce243f-1703-4b01-b781-50c0282d4948.png">
 
-### Features
+## Features
 
 - Output text using Figlet fonts (currently only Standard, but more Figlet fonts will be supported in the future).
 - Custom styling options for the console output
