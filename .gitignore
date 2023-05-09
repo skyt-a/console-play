@@ -1,0 +1,25 @@
+.DS_Store
+*.log
+node_modules
+# Dist and query are both build output folders
+dist*/
+# But don't ignore the RTK Query source
+lib
+es
+
+.yalc
+yalc.lock
+
+.idea/
+.vscode/
+temp/
+.tmp-projections
+build/
+.rts2*
+coverage/
+
+.cache
+package-lock.json
+yarn.lock
+
+./test.js
